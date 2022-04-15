@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: darkgray;
+  height: 100vh;
+  width: 100vw;
 }
 
 .App-logo {
@@ -35,4 +40,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.block{
+  background-color: #61dafb;
+  border: 5px solid #282c34;
+  border-radius: 8px;
+  margin: auto;
+  margin-top: 20px;
+  width: 800px;
+  justify-content: center;
+}
+.inp{
+  margin:auto;
+  margin-top: 40px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 400;
+  font-size: xx-large;
+}
+.btn{
+  background-color: bisque;
+  color:black;
+  text-align: center;
+  font-size: x-large;
+  font-weight: 400;
+  border: 2px solid #282c34;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+
+.inpt{
+  background-color: bisque;
+  color:black;
+  text-align: center;
+  font-size: x-large;
+  font-weight: 400;
+  border: 2px solid #282c34;
+  border-radius: 8px;
+  margin-left: 10px;
 }
